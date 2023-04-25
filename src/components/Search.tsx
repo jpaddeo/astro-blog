@@ -95,10 +95,10 @@ export default function SearchBar({ searchList }: Props) {
 
       {inputVal.length > 1 && (
         <div className="mt-8">
-          Found {searchResults?.length}
+          Se encontraron {searchResults?.length}
           {searchResults?.length && searchResults?.length === 1
-            ? " result"
-            : " results"}{" "}
+            ? " resultado"
+            : " resultados"}{" "}
           for '{inputVal}'
         </div>
       )}
